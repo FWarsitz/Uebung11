@@ -5,13 +5,7 @@ public class H3_main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] unsorted = {5, 2, 8, 1, 9, 3, 7, 4, 6};  // Länge 9
-        int[] sorted = mergeSort(unsorted);
-        
-        System.out.print("Unsorted: ");
-        printArray(unsorted);
-        System.out.print("Sorted:   ");
-        printArray(sorted);
+
 		
 	}
 
@@ -67,12 +61,6 @@ public class H3_main {
 	}
 	
 	
-	 // Test-Ausgabe
-    private static void printArray(int[] arr) {
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-    }
+
 	
 }
